@@ -17,10 +17,9 @@ This project focuses on long-range object detection, leveraging aerial imagery a
 - We initially opted for **YOLO-NAS** due to its good balance between accuracy (mAP) and latency.
 - Despite training for 25 epochs, the results were not satisfactory for all classes, leading us to refine the classes further.
 - **Dependencies:**
-- `super-gradients`
-- `roboflow`
-- `supervision`
-- 
+  `super-gradients`
+  `roboflow`
+  `supervision`
 ### FasterRCNN
 - For better accuracy, we moved to **FasterRCNN**.
 - Trained **fasterrcnn_resnet50_fpn_v2** for 35 epochs using [this pipeline](https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline).
