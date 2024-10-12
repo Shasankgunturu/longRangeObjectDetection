@@ -9,8 +9,9 @@ This project focuses on long-range object detection, leveraging aerial imagery a
 ![Alt Text](images/rhino.png)
 2. **Data Refinement**:
    - We used **RoboFlow** to refine the dataset, selecting only the relevant images from DOTA.
-   - Additional images, specifically focusing on pedestrians from both aerial and ground views, were added.
+   - Additional images, specifically focusing on pedestrians from both aerial and ground datasets, were added.
    - Final classes: `['bicycle', 'bus', 'car', 'drone', 'harbor', 'large-vehicle', 'person', 'plane', 'ship', 'small-vehicle', 'storage-tank', 'truck', 'van']`.
+   - Dataset Link: https://app.roboflow.com/myws-v1e5m/bbb_hack/4
 3. **Augmentation**: Various augmentations were applied to account for different weather conditions, resulting in a final dataset of over 5,500 images.
 ![Alt Text](images/preprocessing.png)
 ## Model Implementations
