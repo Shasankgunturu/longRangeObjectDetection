@@ -37,7 +37,7 @@ This project focuses on long-range object detection, leveraging aerial imagery a
 - We also trained the **Roboflow 3.0 Object Detection (Fast)** model.
 - Achieved an mAP of **61%**, but we ran out of time during the hackathon before further training could improve results.
   
-![alt text](images/roboflow.png)
+  ![alt text](images/roboflow.png)
 
 - Training metrics visualization
   ![Alt Text](images/RoboFlow_training_visualization.jpg)
