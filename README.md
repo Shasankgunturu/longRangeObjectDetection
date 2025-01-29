@@ -1,5 +1,5 @@
 
-# Long Range Object Detection Project
+# Long Range Object Detection
 
 ## Overview
 This project focuses on long-range object detection, leveraging aerial imagery and various deep learning models. Our primary goal was to detect objects in different weather conditions using existing datasets and models, with modifications for improved performance.
@@ -48,7 +48,3 @@ This project focuses on long-range object detection, leveraging aerial imagery a
   3. For real-time performance, consider **tinyYOLO** or **SSD** models.
   
 - **SSD300**: This model offers an excellent balance between speed and accuracy and could be a good alternative to the current models.
-
-## Conclusion
-While our hackathon time limited further improvements, this project demonstrated the potential for using existing datasets and refined models for long-range object detection tasks.
----
